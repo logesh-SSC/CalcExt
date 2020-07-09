@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_color">
+    <RelativeLayout
+        android:layout_margin="10dp"
+        android:id="@+id/relative1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".Fragment_Age"
+        android:background="@drawable/fragment_bg">
+    <TextView
+        android:id="@+id/textview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enter Currency in Dollars"
+        android:textSize="20sp"/>
+    <EditText
+        android:id="@+id/edtText"
+        android:layout_below="@+id/textview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:hint="@string/edtText"/>
+    <Button
+        android:id="@+id/button"
+        android:layout_below="@+id/edtText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:text="CONVERT"
+        android:textSize="20sp"
+        android:onClick="convertToEuro"
+        />
+    <ImageView
+        android:id="@+id/image"
+        android:layout_below="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+        //android:src="@drawable/dollars"
+
+    <TextView
+        android:layout_below="@+id/image"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:textSize="20sp"/>
+    </RelativeLayout>
+</LinearLayout>

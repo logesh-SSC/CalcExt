@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "171621482864",
+    "firebase_url": "https://calcext.firebaseio.com",
+    "project_id": "calcext",
+    "storage_bucket": "calcext.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:171621482864:android:a3b02caf3e884508a38fb5",
+        "android_client_info": {
+          "package_name": "com.example.calcext"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "171621482864-2gvp2idb3mr907a9e8rr3k8m3pomhb76.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.calcext",
+            "certificate_hash": "bf456f980a99b35a9d74f8502991e68a1fa1492f"
+          }
+        },
+        {
+          "client_id": "171621482864-94pjolai98qo07vm4ak7v9h5t2c3hr41.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC6ubRx1USfT80lqUdZtqDzKYNlN4elbvs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "171621482864-94pjolai98qo07vm4ak7v9h5t2c3hr41.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">CalcExt</string>
+    <string name="edtText">Enter currency</string>
+
+
+    <string name="welcome">AndroidBegin - Android Button Click New Activity Example</string>
+    <string name="menu_settings">Settings</string>
+    <string name="Button">Button</string>
+</resources>
